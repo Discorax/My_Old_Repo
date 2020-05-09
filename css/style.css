@@ -1,0 +1,90 @@
+body{
+    margin:0;
+    background-color:#f6f6f6;
+}
+
+.topNav {
+    height:50px;
+    position:sticky;
+    top:-1px;
+    margin:0;
+}
+
+.container {
+    display:flex;
+    height:100vh;
+}
+.left {
+    display:flex;
+    background-color:lightgray;
+    border:1px solid black;
+    /* set height for layout only */
+    
+    width:29%;
+}
+.right {
+    display:flex;
+    background-color:lightgray;
+    width:71%;
+}
+
+/* info area */
+.profile {
+    margin:25px auto;
+
+}
+.profile img {
+    width:150px;
+}
+.profile p{
+    text-align: center;
+}
+
+/* article area */
+.article {}
+.main-copy{
+    padding:50px;
+    margin:0;
+
+}
+.main-copy img {
+    float:left;
+    margin-right:25px;
+    margin-bottom:25px;
+    width:200px;
+}
+.more-pictures {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.more-item {}
+.more-item img {
+    width:300px;
+}
+
+.secondary-headline {
+    text-align:center;
+}
+
+
+
+/* navigation */
+
+
+.navigation {
+    display:inline-block;
+    background-color:gray;
+    height:50px;
+    width:200px;
+    margin:0;
+    border:1px solid black;
+    
+}
+.button {
+    color:white;
+}
+.button:hover {
+    background-color:#707070
+}
